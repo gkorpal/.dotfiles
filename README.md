@@ -33,7 +33,7 @@ dotfiles config --local status.showUntrackedFiles no
 dotfiles remote add origin https://github.com/gkorpal/.dotfiles.git
 ````
 HTTPS vs SSH: https://stackoverflow.com/questions/23401652/
-pull vs psuh: http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
+
 misc: http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
 
 You’ll need to change the remote URL to your git repo. Now, you can easily add the config files you want to be in version control from where they are supposed to be, commit and push. For example, to add vim config files, I’ll do:
