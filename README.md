@@ -50,6 +50,7 @@ Next, say I made some changes in the master branch of this git repo, then before
 ````
 dotfiles pull origin master
 ````
+Note that all these new files will appear in your $HOME folder.
 
 Then after username/password you will be asked to save a comment about this merge.
 
