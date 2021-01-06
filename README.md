@@ -45,6 +45,23 @@ dotfiles commit -m "Add .vimrc"
 dotfiles push --set-upstream origin master
 ````
 
+Next, say I made some changes in the master branch of this git repo, then before adding another file, I will run:
+
+````
+dotfiles pull origin master
+````
+
+Then after username/password you will be asked to save a comment about this merge.
+
+Now, if I want to add bash config files, then:
+
+````
+cd $HOME
+dotfiles add .bashrc
+dotfiles commit -m "Add .bashrc"
+dotfiles push origin master
+````
+
 ## Setting Up a New Machine
 
 To set up a new machine to use your version controlled config files, all you need to do is to clone the repository on your new machine telling git that it is a bare repository:
