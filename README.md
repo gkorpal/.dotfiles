@@ -39,7 +39,7 @@ You’ll need to change the remote URL to your git repo. Now, you can easily add
 cd $HOME
 dotfiles add .vimrc
 dotfiles commit -m "Add .vimrc"
-dotfiles push
+dotfiles push --set-upstream origin master
 ````
 
 ## Setting Up a New Machine
