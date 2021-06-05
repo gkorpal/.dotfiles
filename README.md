@@ -46,7 +46,7 @@ dotfiles pull origin master
 ````
 Note that all these new files will appear in your $HOME folder.
 
-Then after username/password you will be asked to save a comment about this merge.
+Then after username/password you will be asked to save a comment about this merge. For password: Settings > Developer settings > Personal access tokens 
 
 Now, if I want to add bash config files, then:
 
