@@ -25,7 +25,7 @@ Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 call plug#end()                    " To update &runtimepath and initialize plugin system
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method = 'mupdf'
-let g:vimtex_compiler_latexmk= {'options' : ['-pdf', '-shell-escape', '-verbose', '-file-line-error', '-synctex=1', '-interaction=nonstopmode',],}
+let g:vimtex_compiler_latexmk= {'options' : ['-pdf', '--shell-escape', '-verbose', '-file-line-error', '-synctex=1', '-interaction=nonstopmode',],}
 "autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR> 
 "once you press <F9> in normal mode, it first saves your file and then run the file with python.
 "autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR> 
