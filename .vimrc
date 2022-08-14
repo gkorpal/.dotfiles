@@ -2,7 +2,7 @@ set nocompatible                    " get rid of Vi compatibility mode.
 filetype plugin indent on           " filetype detection[ON] plugin[ON] auto-indent[ON] depending on filetype
 set t_Co=256                        " enable 256-color mode.
 syntax enable                       " enable syntax highlighting (can also use syntax on).
-colorscheme morning                 " I am using it with solarized (dark) color pallet in xfce4-terminal.
+"colorscheme morning                " I am using it with solarized (dark) color pallet in xfce4-terminal.
 set hidden                          " allows you to re-use the same window without saving it first and keep an 
                                     " undo history for all the files using the same window.
 set number                          " show line numbers to the left
