@@ -27,6 +27,7 @@ call plug#begin('~/.vim/plugged')   " Specify the directory ~/.vim/plugged for p
                                     " directory names like ~/.vim/plugin
 Plug 'lervag/vimtex'        
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'petRUShka/vim-sage'
 call plug#end()                     " To update &runtimepath and initialize plugin system
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method = 'mupdf'
